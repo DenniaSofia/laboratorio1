@@ -1,10 +1,9 @@
 # laboratorio_1
-Esta es una web que calcula el año de tu nacimiento, realizada como práctica en la clase de Diseño Web para los 
-estudiantesde tercer año de Diseño Gráfico y Multimedia. Para elaborarla se utilizó el programa de Visual Studio Code, 
-insertando los códigos correspondientes al html, css y java script facilitados por el docente. A continuación, se detalla
-la estructura que está detrás de este primer ejercicio:
+Esta es una web que calcula el año de tu nacimiento, realizada como práctica en la clase de Diseño Web para los estudiantesde tercer año de Diseño Gráfico y Multimedia. Para elaborarla se utilizó el programa de Visual Studio Code, insertando los códigos correspondientes al html, css y java script facilitados por el docente. A continuación, se detalla la estructura que está detrás de este primer ejercicio:
 
 ARCHIVO HTML
+Es un markup language, lo que significa que está escrito con códigos que puede leer una persona sin que sea necesario compilarlo primero. En otras palabras, el texto en una página web está «marcado» con estos códigos para dar instrucciones al navegador web sobre cómo mostrar el texto.
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -30,6 +29,7 @@ ARCHIVO HTML
 
 
 ARCHIVO CSS
+El lenguaje de hojas de estilo CSS se utiliza habitualmente para dar un formato adecuado al HTML. De este modo, se definen atributos como el diseño, el color y la forma de los elementos individuales de HTML.
 
 body{
     background-color: #e8e8e8;
@@ -55,6 +55,7 @@ button{
 
 
 ARCHIVO JAVA SCRIPT
+Es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.
 
 const edad = document.getElementById("entrada");
 const boton= document.getElementById("agregar");
