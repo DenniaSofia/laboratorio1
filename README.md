@@ -1,8 +1,8 @@
 # laboratorio_1
-Esta es una web que calcula el año de tu nacimiento, realizada como práctica en la clase de Diseño Web para los estudiantesde tercer año de Diseño Gráfico y Multimedia. Para elaborarla se utilizó el programa de Visual Studio Code, insertando los códigos correspondientes al html, css y java script facilitados por el docente. A continuación, se detalla la estructura que está detrás de este primer ejercicio:
+Esta es una web que calcula el año de tu nacimiento. Lo único que tienes que hacer es insertar tu edad. Fue realizada como práctica en la clase de Diseño Web para los estudiantesde tercer año de Diseño Gráfico y Multimedia. Para elaborarla se utilizó el programa de Visual Studio Code, insertando los códigos correspondientes al html, css y java script facilitados por el docente. A continuación, se detalla la estructura que está detrás de este primer ejercicio:
 
 ARCHIVO HTML
-Es un markup language, lo que significa que está escrito con códigos que puede leer una persona sin que sea necesario compilarlo primero. En otras palabras, el texto en una página web está «marcado» con estos códigos para dar instrucciones al navegador web sobre cómo mostrar el texto.
+Este archivo es el texto de la página web, que está «marcado» con estos códigos para dar instrucciones al navegador web sobre cómo mostrar el texto.
 
 
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ Es un markup language, lo que significa que está escrito con códigos que puede
 
 
 ARCHIVO CSS
-El lenguaje de hojas de estilo CSS se utiliza habitualmente para dar un formato adecuado al HTML. De este modo, se definen atributos como el diseño, el color y la forma de los elementos individuales de HTML.
+La hoja de estilo CSS se utiliza para dar un formato adecuado al HTML. De este modo, se definieron atributos como el diseño, el color y la forma de los elementos individuales de HTML.
 
 body{
     background-color: #e8e8e8;
@@ -55,7 +55,7 @@ button{
 
 
 ARCHIVO JAVA SCRIPT
-Es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.
+Mediante el archivo de Java script se logra hacer una página web interactiva. De esta manera, el objetivo es mejorar la experiencia del usuario en el sitio web.
 
 const edad = document.getElementById("entrada");
 const boton= document.getElementById("agregar");
